@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Slavetb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Slavetb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2000000001fs"></ZoomEndTime>
+      <Cursor1Time time="1500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/Slavetb/MOSI" type="logic">
+      <obj_property name="ElementShortName">MOSI</obj_property>
+      <obj_property name="ObjectShortName">MOSI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/SS" type="logic">
+      <obj_property name="ElementShortName">SS</obj_property>
+      <obj_property name="ObjectShortName">SS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/readData" type="array">
+      <obj_property name="ElementShortName">readData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">readData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/MISO" type="logic">
+      <obj_property name="ElementShortName">MISO</obj_property>
+      <obj_property name="ObjectShortName">MISO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/command_OP" type="array">
+      <obj_property name="ElementShortName">command_OP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">command_OP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/WAddress" type="array">
+      <obj_property name="ElementShortName">WAddress[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WAddress[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/WData" type="array">
+      <obj_property name="ElementShortName">WData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">WData[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/ShiftReg" type="array">
+      <obj_property name="ElementShortName">ShiftReg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ShiftReg[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/SS" type="logic">
+      <obj_property name="ElementShortName">SS</obj_property>
+      <obj_property name="ObjectShortName">SS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/command" type="array">
+      <obj_property name="ElementShortName">command[1:0]</obj_property>
+      <obj_property name="ObjectShortName">command[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/S1" type="logic">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/S2" type="logic">
+      <obj_property name="ElementShortName">S2</obj_property>
+      <obj_property name="ObjectShortName">S2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/S3" type="logic">
+      <obj_property name="ElementShortName">S3</obj_property>
+      <obj_property name="ObjectShortName">S3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/AddEN" type="logic">
+      <obj_property name="ElementShortName">AddEN</obj_property>
+      <obj_property name="ObjectShortName">AddEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/ShLD" type="logic">
+      <obj_property name="ElementShortName">ShLD</obj_property>
+      <obj_property name="ObjectShortName">ShLD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/ShEN" type="logic">
+      <obj_property name="ElementShortName">ShEN</obj_property>
+      <obj_property name="ObjectShortName">ShEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/CMDEn" type="logic">
+      <obj_property name="ElementShortName">CMDEn</obj_property>
+      <obj_property name="ObjectShortName">CMDEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/CurrState" type="array">
+      <obj_property name="ElementShortName">CurrState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">CurrState[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/Add_ShReg" type="array">
+      <obj_property name="ElementShortName">Add_ShReg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Add_ShReg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/CA_count" type="logic">
+      <obj_property name="ElementShortName">CA_count</obj_property>
+      <obj_property name="ObjectShortName">CA_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Slavetb/S1/F1/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+</wave_config>
